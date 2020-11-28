@@ -35,6 +35,7 @@
       <div class="text"><h1 style="position:relative;float:left;font-family:courier;text-align:center;color:rgb(36, 73, 147);font-size:18px">Character Relationships based on number of lines exchanged</h1>
       <p style="font-family:courier;text-align:center;font-size:15px;color:black;float:left;">Michael-Dwight take it away,closely followed by Pam-Jim.The four of them also<br>exchange the most number of lines with other characters,followed by Andy.</p></div>  
     </div>
+    </div>
     <!-- Google Fonts -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <link
@@ -48,7 +49,7 @@
         font-family: "Lato", sans-serif;
       }
 
-      #chart-826a4705, #featured-chart-826a4705 {
+      #chart-526b46e3, #featured-chart-526b46e3 {
 
         font-size: 16px;
         font-family: "Lato", sans-serif;
@@ -56,19 +57,19 @@
         fill: #454545;
       }
 
-      #chart-826a4705 svg, #featured-chart-826a4705 svg {
+      #chart-526b46e3 svg, #featured-chart-526b46e3 svg {
         max-width: 700px;
       }
 
       @media (min-width: 600px) {
-				#chart-826a4705{
+				#chart-526b46e3{
 					font-size: 20px;
 				}
 			}
     </style>
   </head>
   <body>
-    <div id="chart-826a4705" class="chord">
+    <div id="chart-526b46e3" class="chord">
     </div>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
@@ -94,12 +95,12 @@
         innerRadius = Math.min(width, height) * 0.39;
         outerRadius = innerRadius * 1.1;
 
-      tag_id = "chart-826a4705";
+      tag_id = "chart-526b46e3";
       padding = 0.01;
-      Names = ['Andy', 'Angela', 'Dwight', 'Erin', 'Jim', 'Michael', 'Ryan', 'Pam'];
-      colors = ['rgb(237, 173, 8)', '#17BECF', '#B82E2E', '#990099', 'rgb(15, 133, 84)', 'rgb(29, 105, 150)', 'rgb(179, 222, 105)', '#DD4477'];
+      Names = ['Andy', 'Angela', 'Dwight', 'Erin', 'Michael', 'Pam', 'Ryan', 'Jim'];
+      colors = ['rgb(237, 173, 8)', '#17BECF', '#B82E2E', '#990099', 'rgb(29, 105, 150)', '#DD4477', 'rgb(179, 222, 105)', 'rgb(15, 133, 84)'];
       opacityDefault = 0.6;
-      matrix = [[0.0, 145.0, 373.0, 447.0, 305.0, 197.0, 13.0, 88.0], [145.0, 0.0, 398.0, 0.0, 16.0, 66.0, 0.0, 130.0], [373.0, 398.0, 0.0, 84.0, 1032.0, 1735.0, 134.0, 214.0], [447.0, 0.0, 84.0, 0.0, 13.0, 201.0, 41.0, 67.0], [305.0, 16.0, 1032.0, 13.0, 0.0, 829.0, 118.0, 1672.0], [197.0, 66.0, 1735.0, 201.0, 829.0, 0.0, 277.0, 880.0], [13.0, 0.0, 134.0, 41.0, 118.0, 277.0, 0.0, 100.0], [88.0, 130.0, 214.0, 67.0, 1672.0, 880.0, 100.0, 0.0]];
+      matrix = [[0.0, 145.0, 373.0, 447.0, 197.0, 88.0, 13.0, 305.0], [145.0, 0.0, 398.0, 0.0, 66.0, 130.0, 0.0, 16.0], [373.0, 398.0, 0.0, 84.0, 1735.0, 214.0, 134.0, 1032.0], [447.0, 0.0, 84.0, 0.0, 201.0, 67.0, 41.0, 13.0], [197.0, 66.0, 1735.0, 201.0, 0.0, 880.0, 277.0, 829.0], [88.0, 130.0, 214.0, 67.0, 880.0, 0.0, 100.0, 1672.0], [13.0, 0.0, 134.0, 41.0, 277.0, 100.0, 0.0, 118.0], [305.0, 16.0, 1032.0, 13.0, 829.0, 1672.0, 118.0, 0.0]];
       wrap_labels = true;
       credit = false
       
@@ -464,3 +465,4 @@
     <script></script>
   </body>
 </html>
+
