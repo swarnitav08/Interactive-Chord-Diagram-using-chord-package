@@ -9,12 +9,12 @@ The link when opened via Chrome browser on my laptop Dell Inspiron 5559 (15.6-in
 
 <br>1) Top half of the page:</br>
 
-![image](https://user-images.githubusercontent.com/50669059/96999027-2825ce80-1552-11eb-930b-4cbbc8e546a9.png) 
+![image](https://user-images.githubusercontent.com/50669059/100533757-d39b0080-322d-11eb-815d-616377f7ce04.png) 
 
 
 <br>2) Bottom half of the page:</br>
 
-![image](https://user-images.githubusercontent.com/50669059/96999211-73d87800-1552-11eb-8b13-fa9834aab148.png)
+![image](https://user-images.githubusercontent.com/50669059/100533769-e9102a80-322d-11eb-87cf-d516e05edb89.png)
 
 ## Credits:
 1) Sashank Kakaraparty and his awesome guide on how to create beautiful looking Chord diagrams. Check out his article at https://towardsdatascience.com/create-beautiful-and-interactive-chord-diagrams-using-python-cb5ecb092a7c
