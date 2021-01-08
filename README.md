@@ -7,7 +7,7 @@ You can check out the Chord diagram I created at https://swarnitav08.github.io/I
 This repository is a part of the visualizations under "The Office Story" project; you can view the project's repo here - https://github.com/swarnitav08/The-Office-Story
 
 ## Screenshots:
-The link when opened via Chrome browser on my laptop Dell Inspiron 5559 (15.6-inch) looks like this (the formatting might change based on different laptop screens and browsers, hence attaching screenshots of how it is supposed to look)-
+As far as I have observed the link is best viewed when your browser zoom level is at 100%. The link when opened via Chrome browser on my laptop looks like this(the formatting might change based on different browsers, hence attaching screenshots of how it is supposed to look)-
 
 <br>1) Top half of the page:</br>
 
